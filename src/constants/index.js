@@ -1,4 +1,15 @@
-import { battle, book, terrain, boss } from "../assets/icons";
+import {
+  battle,
+  book,
+  terrain,
+  boss,
+  googleDrive,
+  mega,
+  mediafire,
+  gmail,
+  linkedin,
+  facebook,
+} from "../assets/icons";
 
 export const features = [
   {
@@ -39,4 +50,49 @@ export const navLinks = [
   { href: "#about", label: "About" },
   { href: "#gameplay", label: "Gameplay" },
   { href: "#download", label: "Download" },
+];
+
+export const downloadLinkHref = "#download";
+
+export const downloadLinks = [
+  {
+    id: "google",
+    icon: googleDrive,
+    title: "Google",
+    size: "322 MB",
+    href: "https://drive.google.com/file/d/1J46ml6dSuoNfzjjnrqRXA1yeVjuTj0oW/view?usp=sharing",
+  },
+  {
+    id: "mega",
+    icon: mega,
+    title: "MEGA",
+    size: "322 MB",
+    href: "https://mega.nz/file/Bvl1QbzD#6ku2AmIpenYvibkLgxWPssjtr5c3Ynp3Y17OV5R0P70",
+  },
+  {
+    id: "mediafire",
+    icon: mediafire,
+    title: "MediaFire",
+    size: "322 MB",
+    href: "https://www.mediafire.com/file/e7b860cdopus5nd/Game.rar/file",
+  },
+];
+
+export const contactLink = [
+  {
+    id: "email",
+    icon: gmail,
+    label: "Reyniel.t.mahinay@gmail.com",
+  },
+  {
+    id: "linkedin",
+    icon: linkedin,
+    label: "Linkedin",
+  },
+
+  {
+    id: "facebook",
+    icon: facebook,
+    label: "Facebook",
+  },
 ];

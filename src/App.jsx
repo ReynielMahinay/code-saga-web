@@ -1,5 +1,13 @@
 import "./App.css";
-import { Nav, Hero, Story, Features } from "./sections";
+import {
+  Nav,
+  Hero,
+  Story,
+  Features,
+  Trailer,
+  Download,
+  Footer,
+} from "./sections";
 import RedBook from "./components/RedBook";
 import WhiteBook from "./components/WhiteBook";
 import BlackBook from "./components/BlackBook";
@@ -13,12 +21,20 @@ function App() {
         <Hero />
         <RedBook />
       </section>
-      <section className=" md:padding-r md:padding-l md:padding-t max-sm:px-8 max-md:px-10  relative overflow-hidden">
+      <section className=" md:padding-r md:padding-l md:padding-t max-sm:px-8 max-md:px-10  relative overflow-hidden ">
         <WhiteBook />
         <BlackBook />
         <Story />
-
         <Features />
+      </section>
+      <section className="md:padding-r md:padding-l md:padding-t max-sm:px8 max-md:px-10 relative ">
+        <Trailer />
+      </section>
+      <section className="md:padding-r md:padding-l md:padding-t max-sm:px8 max-md:px-10 relative">
+        <Download />
+      </section>
+      <section className="bg-dark_blue">
+        <Footer />
       </section>
     </main>
   );

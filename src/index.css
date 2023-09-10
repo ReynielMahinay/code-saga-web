@@ -58,6 +58,14 @@
     @apply sm:pb-24 pb-12;
   }
 
+  .margin-r {
+    @apply sm:mr-20 mr-10;
+  }
+
+  .margin-l {
+    @apply sm:ml-20 ml-10;
+  }
+
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }

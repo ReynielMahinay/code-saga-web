@@ -1,9 +1,11 @@
 import React from "react";
 import Button from "../components/Button";
 import { portal, run, book_red } from "../assets/images";
+import { download } from "../assets/icons";
+import { navLinks } from "../constants";
+import { downloadLinkHref } from "../constants";
 
 const Hero = () => {
-  const showElementOnXL = true;
   return (
     <section
       className=" w-full flex flex-row justify-start xl:min-h-screen max-container py-[30px] md:pt-[80px] sm:pb-[60px] max-lg:justify-center max-lg:items-center"
@@ -19,7 +21,8 @@ const Hero = () => {
           Embark on an epic 2D RPG action adventure. Dive into a richly crafted
           world and find the answer to the legendary book.
         </p>
-        <Button />
+
+        <Button label="Download" icon={download} href={downloadLinkHref} />
       </div>
       <div className=" hidden xl:flex flex-row relative xl:max-w-[35%] md:w-[50%]  flex-1 justify-end items-center max-sm:justify-center max-sm:items-center ">
         <img
