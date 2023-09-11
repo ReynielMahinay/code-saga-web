@@ -2,7 +2,7 @@ import { contactLink, gametech, webtech } from "../constants";
 
 const Footer = () => {
   return (
-    <footer className="pt-7 pl-10  flex flex-col justify-center items-start gap-10">
+    <footer className="pt-7 pl-10  flex flex-col justify-center items-start gap-10  bg-footer_bg bg-fit bg-no-repeat">
       <div className="flex flex-1 flex-row justify-start items-center gap-24">
         <div>
           <h3 className="font-kanit text-yellow font-semibold text-xl ml-2">

@@ -14,12 +14,35 @@ function App() {
   return (
     <main className="relative">
       <Nav />
-      <section className="md:padding-l md:padding-r  max-sm:px-8 max-md:px-10 bg-dark_blue relative overflow-hidden bg-hero bg-contain max-sm:bg-right max-sm:bg-cover bg-no-repeat bg-right	">
+      <section
+        className="
+        xl:padding-l xl:padding-r
+        2xl:padding-l 2xl:padding-r
+        max-xl:padding-l max-xl:padding-r
+        lg:px-[50px] max-lg:px-[30px]
+        max-md:px-10 max-sm:px-8 
+        bg-dark_blue relative
+        overflow-hidden
+        bg-hero bg-contain 
+        max-sm:bg-cover md:bg-cover max-lg:bg-cover bg-no-repeat bg-right"
+      >
         <Hero />
         <Book color="red" />
       </section>
+
+      {/* gradient effect */}
+      <div className="blue-v absolute right-[60px] bottom-[2px] w-[90%] h-[10%] z-[0] " />
       <div className="blue-v absolute left-[150px] top-[1300px] w-[33%] h-[10%] z-[0]" />
-      <section className=" md:padding-r md:padding-l md:padding-t max-sm:px-8 max-md:px-10  relative overflow-hidden ">
+      {/* gradient effect */}
+
+      <section
+        className=" xl:padding-l xl:padding-r
+        2xl:padding-l 2xl:padding-r
+        max-xl:padding-l max-xl:padding-r
+        lg:px-[50px] max-lg:px-[30px]
+        max-md:px-10 max-sm:px-8  
+         relative overflow-hidden "
+      >
         <Book color="black" />
         <Book color="white" />
         <div className="blue-v absolute right-[150px] w-[33%] h-[40%] z-[0]" />
@@ -34,7 +57,7 @@ function App() {
       <section className="relative">
         <Download />
       </section>
-      <section className="bg-dark_blue">
+      <section className="relative">
         <Footer />
       </section>
     </main>

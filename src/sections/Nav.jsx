@@ -8,7 +8,7 @@ const Nav = () => {
           {navLinks.map((item) => (
             <li
               key={item.label}
-              className="text-white tracking-widest font-gameplay font-bold hover:text-yellow text-[13px]"
+              className="text-yellow tracking-widest font-gameplay font-bold hover:text-white text-[13px]"
             >
               <a href={item.href}>{item.label}</a>
             </li>

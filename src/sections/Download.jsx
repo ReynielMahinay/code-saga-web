@@ -9,7 +9,7 @@ const Download = () => {
       <div className="font-kanit font-bold text-5xl text-yellow justify-center items-center">
         <h1>DOWNLOAD LINKS</h1>
       </div>
-      <div className="flex bg-download_bg bg-no-repeat bg-fit bg-brightness-50 flex-row gap-11 w-full bg-dark_blue py-10 px-10  md:padding-r md:padding-l">
+      <div className="flex  flex-row gap-11 w-full  py-2 md:padding-r md:padding-l">
         {downloadLinks.map((link) => (
           <DownloadCard key={link.id} {...link} />
         ))}

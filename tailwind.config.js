@@ -23,6 +23,7 @@ export default {
         trailer_bg: "url('src/assets/images/trailer-bg.png')",
         border_download: "url('src/assets/images/download-border.png')",
         download_bg: "url('src/assets/images/download-bg.png')",
+        footer_bg: "url('src/assets/images/footer-bg.png')",
       },
     },
   },

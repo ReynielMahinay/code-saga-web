@@ -7,14 +7,27 @@ import { downloadLinkHref } from "../constants";
 
 const Hero = () => {
   return (
+    //prettier-ignore
     <section
-      className="	w-full flex flex-row justify-start xl:min-h-screen max-container py-[30px] md:pt-[80px] sm:pb-[60px] max-lg:justify-center max-lg:items-center"
+      className="	w-full flex flex-row justify-start xl:min-h-screen max-container py-[30px]
+       md:pt-[80px] sm:pb-[60px] max-lg:justify-center max-lg:items-center"
       id="home"
     >
+      {/*gradient effect */}
+
       <div className="light-blue absolute w-[33%] h-[50%] z-[0] " />
 
-      <div className="  relative xl:2/5 flex flex-col justify-center items-start max-sm:items-center xl:max-w-[73%]  max-lg:w-[100%] max-sm:text-center ">
-        <h1 className="font-gameplay text-shadow-2xl tracking-wide text-white pr-10 font-gameplay font-bold max-sm:text-[35px] max-md:text-[60px] max-xl:text-[70px] text-6xl w-full leading-[80px] max-md:leading-1 max-sm:leading-[40px] ">
+      {/*first div that has title, description and button */}
+
+      <div
+        className="  relative xl:2/5 flex flex-col justify-center items-start 
+      max-sm:items-center xl:max-w-[73%]  max-lg:w-[100%] max-sm:text-center "
+      >
+        <h1
+          className="font-gameplay tracking-wide text-white pr-10
+        font-bold max-sm:text-[35px] max-md:text-[60px] max-xl:text-[70px] text-6xl 
+        w-full leading-[80px] max-md:leading-1 max-sm:leading-[40px] "
+        >
           CODE<span className="text-yellow"> SAGA</span>
           <br />
           AARHUS EVENTYR
@@ -26,7 +39,13 @@ const Hero = () => {
 
         <Button label="Download" icon={download} href={downloadLinkHref} />
       </div>
-      <div className=" hidden xl:flex flex-row relative xl:max-w-[35%] md:w-[50%]  flex-1 justify-end items-center max-sm:justify-center max-sm:items-center ">
+
+      {/* second div that has portal and mc */}
+
+      <div
+        className=" hidden xl:flex flex-row relative xl:max-w-[35%] md:w-[50%] 
+       flex-1 justify-end items-center max-sm:justify-center max-sm:items-center "
+      >
         <img
           src={run}
           alt="run"
