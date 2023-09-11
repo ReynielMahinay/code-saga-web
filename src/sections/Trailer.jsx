@@ -3,13 +3,13 @@ import VideoPlayer from "../components/VideoPlayer";
 const Trailer = () => {
   return (
     <section
-      className="max-container flex flex-1 flex-col w-full padding justify-center items-center gap-14"
+      className="max-container relative flex flex-1 flex-col w-full ustify-center items-center gap-5 pt-[20px]"
       id="gameplay"
     >
       <div className="">
         <h2 className="font-kanit text-yellow text-5xl font-bold ">Trailer</h2>
       </div>
-      <div className=" ">
+      <div className="bg-border_video bg-center bg-contain bg-no-repeat w-[950px] h-[571px] justify-center items-center">
         <VideoPlayer />
       </div>
     </section>

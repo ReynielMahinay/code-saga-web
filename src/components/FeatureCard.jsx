@@ -22,7 +22,7 @@ const FeatureCard = ({ icon, title, content, id }) => {
         <h4 className="font-kanit text-xl font-bold text-yellow max-sm:text-[20px]">
           {title}
         </h4>
-        <p className="text-slate-300 font-montserrat max-sm:text-[15px]">
+        <p className="text-slate-300 font-kanit max-sm:text-[15px]">
           {content}
         </p>
       </div>

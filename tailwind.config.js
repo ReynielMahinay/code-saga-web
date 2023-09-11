@@ -17,7 +17,12 @@ export default {
         yellow: "#f4ae1c",
       },
       backgroundImage: {
-        hero: "url('assets/images/hero-bg.png')",
+        hero: "url('src/assets/images/hero-bg.png')",
+        border_video: "url('src/assets/images/video-player-border.png')",
+        border_image: "url('src/assets/images/image-border.png')",
+        trailer_bg: "url('src/assets/images/trailer-bg.png')",
+        border_download: "url('src/assets/images/download-border.png')",
+        download_bg: "url('src/assets/images/download-bg.png')",
       },
     },
   },

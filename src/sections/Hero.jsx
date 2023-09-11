@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../components/Button";
-import { portal, run, book_red } from "../assets/images";
+import { portal, run, hero_bg } from "../assets/images";
 import { download } from "../assets/icons";
 import { navLinks } from "../constants";
 import { downloadLinkHref } from "../constants";
@@ -8,11 +8,13 @@ import { downloadLinkHref } from "../constants";
 const Hero = () => {
   return (
     <section
-      className=" w-full flex flex-row justify-start xl:min-h-screen max-container py-[30px] md:pt-[80px] sm:pb-[60px] max-lg:justify-center max-lg:items-center"
+      className="	w-full flex flex-row justify-start xl:min-h-screen max-container py-[30px] md:pt-[80px] sm:pb-[60px] max-lg:justify-center max-lg:items-center"
       id="home"
     >
-      <div className=" relative xl:2/5 flex flex-col justify-center items-start max-sm:items-center xl:max-w-[70%] max-lg:w-[100%] max-sm:text-center ">
-        <h1 className="text-white  font-kanit font-bold max-sm:text-[35px] max-md:text-[60px] max-xl:text-[70px] text-7xl w-full leading-[80px] max-md:leading-1 max-sm:leading-[40px] ">
+      <div className="light-blue absolute w-[33%] h-[50%] z-[0] " />
+
+      <div className="  relative xl:2/5 flex flex-col justify-center items-start max-sm:items-center xl:max-w-[73%]  max-lg:w-[100%] max-sm:text-center ">
+        <h1 className="font-gameplay text-shadow-2xl tracking-wide text-white pr-10 font-gameplay font-bold max-sm:text-[35px] max-md:text-[60px] max-xl:text-[70px] text-6xl w-full leading-[80px] max-md:leading-1 max-sm:leading-[40px] ">
           CODE<span className="text-yellow"> SAGA</span>
           <br />
           AARHUS EVENTYR

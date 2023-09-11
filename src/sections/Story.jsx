@@ -14,7 +14,7 @@ const Story = () => {
           <span className="text-yellow"> scientist </span> and{" "}
           <span className="text-yellow"> programmer</span>.
         </h3>
-        <p className="text-slate-300 mt-5 font-montserrat max-sm:text-[15px] ">
+        <p className="text-slate-300 mt-5 font-kanit max-sm:text-[15px] ">
           He was an intelligent kid who grew up with his father, who influenced
           him in technology and programming. He is always in his father's office
           when his father is not at home, where he spends a lot of time reading
@@ -25,11 +25,11 @@ const Story = () => {
           vanishment.
         </p>
       </div>
-      <div>
+      <div className="bg-border_image bg-no-repeat bg-center bg-contain  w-[400px] h-[400px] flex flex-1 relative justify-center items-center">
         <img
           src={combat}
           alt="combat"
-          className="w-[300px] h-[300px] xl:w-[400px] xl:h-[400px]  max-sm:w-[170px] max-sm:h-[170px] rounded-xl "
+          className="w-[300px] h-[300px] xl:w-[349px] xl:h-[349px]  max-sm:w-[170px] max-sm:h-[170px] "
         />
       </div>
     </section>

@@ -9,7 +9,15 @@ import {
   gmail,
   linkedin,
   facebook,
+  unity,
+  csharp,
+  vscode,
+  aseprite,
+  reactsvg,
+  tailwind,
 } from "../assets/icons";
+
+import { book_red, book_black, book_white } from "../assets/images";
 
 export const features = [
   {
@@ -88,11 +96,63 @@ export const contactLink = [
     id: "linkedin",
     icon: linkedin,
     label: "Linkedin",
+    href: "https://www.linkedin.com/in/reyniel-mahinay-20327028a/",
   },
 
   {
     id: "facebook",
     icon: facebook,
     label: "Facebook",
+    href: "https://www.facebook.com/knoxx00/",
+  },
+];
+
+export const books = [
+  {
+    id: "red",
+    image: book_red,
+  },
+  {
+    id: "black",
+    image: book_black,
+  },
+  {
+    id: "white",
+    image: book_white,
+  },
+];
+
+export const gametech = [
+  {
+    id: "unity",
+    icon: unity,
+  },
+  {
+    id: "csharp",
+    icon: csharp,
+  },
+  {
+    id: "vscode",
+    icon: vscode,
+  },
+  {
+    id: "aseprite",
+    icon: aseprite,
+  },
+];
+
+export const webtech = [
+  {
+    id: "react",
+    icon: reactsvg,
+  },
+
+  {
+    id: "tailwind",
+    icon: tailwind,
+  },
+  {
+    id: "vscode",
+    icon: vscode,
   },
 ];
