@@ -5,7 +5,7 @@ const Features = () => {
   return (
     <section
       className="max-container  flex flex-row max-lg:flex-col  gap-14 max-lg:gap-8 
-       max-sm:gap-8 max-md:gap-14 max-sm:pt-[40px] pb-[90px] justify-center items-center w-full pt-[30px] "
+       max-sm:gap-8 max-md:gap-14 max-sm:pt-[40px] pb-[90px] max-sm:pb-[50px] justify-center items-center w-full pt-[30px] "
     >
       <div
         className="bg-border_image bg-no-repeat bg-center bg-contain 

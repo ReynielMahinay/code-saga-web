@@ -24,7 +24,7 @@ const Hero = () => {
       max-sm:items-center xl:max-w-[73%]  max-lg:w-[100%] max-sm:text-center "
       >
         <h1
-          className="font-gameplay tracking-wide text-white pr-10
+          className="font-gameplay tracking-wide text-white pr-10 max-sm:pr-0
         font-bold max-sm:text-[35px] max-md:text-[60px] max-xl:text-[70px] text-6xl 
         w-full leading-[80px] max-md:leading-1 max-sm:leading-[40px] "
         >

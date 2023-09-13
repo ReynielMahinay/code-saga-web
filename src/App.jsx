@@ -12,7 +12,7 @@ import Book from "./components/Book";
 
 function App() {
   return (
-    <main className="relative">
+    <main className="relative overflow-hidden">
       <Nav />
       <section
         className="
@@ -33,6 +33,8 @@ function App() {
       {/* gradient effect */}
       <div className="blue-v absolute right-[60px] bottom-[2px] w-[90%] h-[10%] z-[0] " />
       <div className="blue-v absolute left-[150px] top-[1300px] w-[33%] h-[10%] z-[0]" />
+      <div className="blue-v absolute bottom-[850px] left-[170px]  w-[70%] h-[13%] z-[0] " />
+
       {/* gradient effect */}
 
       <section
@@ -49,15 +51,13 @@ function App() {
         <Story />
         <Features />
       </section>
-
-      <section className="md:padding-r md:padding-l max-sm:px8 max-md:px-10 relative bg-trailer_bg bg-fit bg-no-repeat bg-center">
-        <div className="blue-v absolute top-[97px] left-[170px]  w-[70%] h-[75%] z-[0]" />
+      <section className=" overflow-hidden md:padding-r md:padding-l max-sm:px8 max-md:px-10 relative bg-trailer_bg bg-fit bg-no-repeat bg-center">
         <Trailer />
       </section>
       <section className="relative">
         <Download />
       </section>
-      <section className="relative">
+      <section className="relative bg-footer_bg bg-fit max-sm:bg-cover bg-no-repeat">
         <Footer />
       </section>
     </main>
