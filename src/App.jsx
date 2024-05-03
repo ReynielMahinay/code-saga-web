@@ -1,4 +1,5 @@
 import "./App.css";
+import { Analytics } from "@vercel/analytics/react"
 import {
   Nav,
   Hero,
@@ -59,6 +60,7 @@ function App() {
       </section>
       <section className="relative bg-footer_bg bg-fit max-sm:bg-cover bg-no-repeat">
         <Footer />
+        <Analytics/>
       </section>
     </main>
   );
