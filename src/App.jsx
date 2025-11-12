@@ -9,6 +9,7 @@ import {
   Footer,
 } from "./sections";
 import Book from "./components/Book";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -60,6 +61,7 @@ function App() {
       <section className="relative bg-footer_bg bg-cover max-sm:bg-cover bg-no-repeat">
         <Footer />
       </section>
+      <Analytics />
     </main>
   );
 }
