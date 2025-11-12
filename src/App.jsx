@@ -9,7 +9,7 @@ import {
   Footer,
 } from "./sections";
 import Book from "./components/Book";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
