@@ -1,6 +1,6 @@
 import "./App.css";
-import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/react"
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import {
   Nav,
   Hero,
@@ -53,16 +53,16 @@ function App() {
         <Story />
         <Features />
       </section>
-      <section className=" overflow-hidden md:padding-r md:padding-l max-sm:px8 max-md:px-10 relative bg-trailer_bg bg-fit bg-no-repeat bg-center">
+      <section className=" overflow-hidden md:padding-r md:padding-l max-sm:px8 max-md:px-10 relative bg-trailer_bg bg-cover max-sm:bg-cover bg-no-repeat bg-center">
         <Trailer />
       </section>
       <section className="relative">
         <Download />
       </section>
-      <section className="relative bg-footer_bg bg-fit max-sm:bg-cover bg-no-repeat">
+      <section className="relative bg-footer_bg bg-cover max-sm:bg-cover bg-no-repeat">
         <Footer />
-        <Analytics/>
-        <SpeedInsights/>
+        <Analytics />
+        <SpeedInsights />
       </section>
     </main>
   );
